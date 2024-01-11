@@ -3,7 +3,7 @@ let numeri = [""];
 const result = document.querySelector('h2')
 
 for(let y=0; y<input; y++){
-    let numbersAdded = parseInt(prompt("Inserire " + input + " numeri"))
+    let numbersAdded = parseInt(prompt("Inserire " + input + " numeri, premendo invio per ognuno di essi"))
     numeri.push(numbersAdded)
 }
 
